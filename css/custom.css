@@ -1,0 +1,209 @@
+.field_error {
+    color: red;
+}
+
+.accordion .accordion__hide {
+    background: #f4f4f4;
+    height: 65px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+#social_share_box {
+    margin-top: 20px;
+    width: 150px;
+}
+
+
+#social_share_box img {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.instamojo_error {
+    color: red;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buy_now {
+    background: #337ab7 none repeat scroll 0 0;
+}
+
+#multiple_images {
+    margin-top: 10px;
+}
+
+#multiple_images img {
+    width: 15%;
+}
+
+.review_heading {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+#review .comment-rating {
+    color: #c43b68;
+    font-weight: bold;
+}
+
+.submit_review_hint {
+    font-size: 16px;
+    color: #c43b68;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    gap: 12px;
+}
+
+.logo-text {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 26px !important;
+    font-weight: 700 !important;
+    letter-spacing: 4px;
+    color: #222;
+    line-height: 1;
+}
+
+.logo-mark {
+    flex-shrink: 0;
+}
+
+/* Premium Enhancement */
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+.title__line {
+    font-family: 'Playfair Display', serif !important;
+}
+
+.category {
+    transition: all 0.3s ease;
+    border-radius: 12px !important;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.fr__btn {
+    border-radius: 50px !important;
+    transition: background 0.3s;
+}
+
+.sticky__header.scroll-header {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Nav Bar Alignment Fixes */
+.menumenu__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__search,
+.header__account,
+.htc__shopping__cart {
+    display: flex;
+    align-items: center;
+}
+
+/* Mobile Responsiveness for Nav */
+@media (max-width: 991px) {
+    .logo {
+        height: 60px !important;
+    }
+
+    .logo-text {
+        font-size: 20px !important;
+    }
+
+    .header__right {
+        gap: 10px;
+    }
+
+    .header__account a {
+        font-size: 14px !important;
+        padding-right: 10px !important;
+    }
+
+    .header__search a i,
+    .htc__shopping__cart a i {
+        font-size: 16px !important;
+    }
+}
+
+/* Phase 2: Refined Polish */
+.category {
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.category:hover {
+    border-color: #c43b68 !important;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1) !important;
+}
+
+.fr__btn {
+    box-shadow: 0 4px 15px rgba(196, 59, 104, 0.2);
+    text-transform: uppercase;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    border-radius: 10px !important;
+    border: 1px solid #eee !important;
+    padding: 12px 20px !important;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #c43b68 !important;
+    box-shadow: 0 0 0 4px rgba(196, 59, 104, 0.05) !important;
+}
+
+.title__line::after {
+    background: #c43b68 !important;
+    width: 60px !important;
+    height: 4px !important;
+}

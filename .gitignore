@@ -1,0 +1,17 @@
+# PHP
+vendor/
+composer.lock
+.env
+
+# MacOS
+.DS_Store
+
+# Logs
+error_log
+php_errors.log
+
+# SQL Dumps (Optional, keep if you want to track schema but usually ignored)
+*.sql
+
+# System
+.gemini/
