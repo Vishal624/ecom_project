@@ -1,0 +1,7 @@
+{
+    "name": "vishal/ecom-project",
+    "description": "PHP E-commerce Application",
+    "require": {
+        "php": "^8.0"
+    }
+}
